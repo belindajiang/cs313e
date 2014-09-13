@@ -166,7 +166,7 @@ assert x == [ 2,  3,  4]
 assert y == [10, 15, 20]
 
 x = [2, 3, 4]
-y = [v * 5 for v in x]                 # list comprehension
+y = [v * 5 for v in x]            # list comprehension
 assert type(y) is list
 assert not hasattr(y, "__next__")
 assert     hasattr(y, "__iter__")
